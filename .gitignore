@@ -1,0 +1,83 @@
+# =========================
+# 🔐 Environment Variables
+# =========================
+.env
+.env.*
+*.env
+
+# =========================
+# 📦 Node (React Client)
+# =========================
+client/node_modules/
+client/build/
+client/dist/
+client/.parcel-cache/
+client/.vite/
+client/.next/
+client/out/
+client/coverage/
+client/.eslintcache
+client/*.log
+client/npm-debug.log*
+client/yarn-debug.log*
+client/yarn-error.log*
+client/pnpm-debug.log*
+
+# =========================
+# 🐍 Python (FastAPI Server)
+# =========================
+server/__pycache__/
+server/*.py[cod]
+server/*$py.class
+server/.Python
+server/env/
+server/venv/
+server/.venv/
+server/ENV/
+server/env.bak/
+server/venv.bak/
+
+# FastAPI / Uvicorn
+server/*.log
+
+# =========================
+# 🧪 Testing
+# =========================
+.coverage
+htmlcov/
+.pytest_cache/
+
+# =========================
+# 🧠 Mypy / Ruff / Lint
+# =========================
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# =========================
+# 🧱 Build Artifacts
+# =========================
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# =========================
+# 🗄 Database
+# =========================
+*.db
+*.sqlite3
+
+# =========================
+# 💻 IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# 🖥 OS Files
+# =========================
+.DS_Store
+Thumbs.db
